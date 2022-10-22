@@ -43,5 +43,8 @@ select Count(*) As Count,state,city from addressbook group by state,city;
 
 select * from addressbook where city='newyork' order by first_name;
 
+alter table addressbook add type varchar(150) not null after last_name;
+
+describe addressbook;
  
  
