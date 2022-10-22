@@ -35,3 +35,7 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
  
  delete from addressbook where first_name='jenny';
  select * from addressbook;
+ 
+ select * from addressbook where state='newyork';
+ select * from addressbook where city='Houston';
+ 
