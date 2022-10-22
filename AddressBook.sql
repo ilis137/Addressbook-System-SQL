@@ -30,3 +30,8 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
  select * from addressbook;
  
  update addressbook set city='Houston' where first_name='jack';
+ 
+ select * from addressbook;
+ 
+ delete from addressbook where first_name='jenny';
+ select * from addressbook;
