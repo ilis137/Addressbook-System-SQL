@@ -28,3 +28,5 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
 .com'),('jenny','parker','X-type','LA','California',789456,1234595,'jas@jhds.com');
 
  select * from addressbook;
+ 
+ update addressbook set city='Houston' where first_name='jack';
