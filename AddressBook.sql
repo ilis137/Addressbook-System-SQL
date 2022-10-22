@@ -22,3 +22,9 @@ create table addressbook(
 );
 
 describe addressbook;
+
+insert into addressbook (first_name,last_name,address,city,state,zip,phone_number,email) values ('John','Doe','k-type','newyork','newyork',831004,1258623,'abc@xyz
+.com'),('jack','dale','P-type','Dallas','Texas',123456,8543912,'xyz@abc
+.com'),('jenny','parker','X-type','LA','California',789456,1234595,'jas@jhds.com');
+
+ select * from addressbook;
