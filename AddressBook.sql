@@ -47,4 +47,5 @@ alter table addressbook add type varchar(150) not null after last_name;
 
 describe addressbook;
  
- 
+ update addressbook set type='profession' where first_name='sophie';
+  select count(type) as Count,type from addressbook group by type;
