@@ -38,6 +38,8 @@ insert into addressbook (first_name,last_name,address,city,state,zip,phone_numbe
  
  select * from addressbook where state='newyork';
  select * from addressbook where city='Houston';
- 
+ insert into addressbook (first_name,last_name,address,city,state,zip,phone_number,email) values ('anne','parker','k-type','newyork','newyork',831004,1258623,'abc@xyz .com'),('jack','dale','P-type','Dallas','Texas',123456,8543912,'xyz@abc .com'),('sophie','smith','X-type','LA','California',789456,1234595,'jas@jhds.com');
+select Count(*) As Count,state,city from addressbook group by state,city;
+
  
  
